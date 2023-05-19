@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/folderCard"
+        android:layout_width="180dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginStart="6dp"
+        app:cardCornerRadius="6dp"
+        android:elevation="5dp"
+        android:background="#817E81">
+
+        <ImageView
+            android:id="@+id/ImagePic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="TODO" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
